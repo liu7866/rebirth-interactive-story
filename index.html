@@ -2,6 +2,91 @@
 <html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f4efe5"><title>《我真没想重生啊》· 高考后的夏天</title>
 <style>
 :root{--paper:#f5f0e6;--ink:#2d302b;--muted:#77766e;--rust:#a45237;--olive:#63705b;--line:#d9d2c4;--card:#fcfaf5}*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font-family:"Noto Serif SC","Songti SC",Georgia,serif}button{font:inherit;color:inherit}.shell{min-height:100vh;display:grid;grid-template-columns:minmax(0,1fr) 310px;max-width:1480px;margin:auto}main{padding:30px clamp(18px,4vw,62px) 60px}.top{display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line);padding-bottom:18px}.brand{font-size:13px;letter-spacing:.2em;color:var(--muted)}.actions{display:flex;gap:9px}.small-btn{border:1px solid var(--line);background:transparent;border-radius:20px;padding:7px 13px;font-size:12px;cursor:pointer}.small-btn:hover{background:#ebe4d7}.eyebrow{font:11px/1.4 system-ui,sans-serif;letter-spacing:.18em;color:var(--rust);margin:22px 0 8px}h1{font-size:clamp(28px,4vw,48px);font-weight:500;letter-spacing:.04em;margin:0 0 8px}.subhead{color:var(--muted);font-size:14px;line-height:1.8;max-width:720px;margin:0 0 26px}.stage{position:relative;min-height:clamp(250px,37vw,470px);overflow:hidden;background:#c8bda9;border-radius:4px}.stage img{position:absolute;width:100%;height:100%;object-fit:cover;inset:0;transition:opacity .35s}.stage:after{content:"";position:absolute;inset:35% 0 0;background:linear-gradient(transparent,rgba(24,26,24,.72))}.scene-label{position:absolute;z-index:2;bottom:21px;left:24px;color:#fff}.scene-label small{font:11px system-ui,sans-serif;letter-spacing:.16em;opacity:.8}.scene-label h2{font-weight:500;font-size:24px;margin:5px 0 0}.progress{display:flex;gap:7px;margin:19px 0 18px}.dot{height:3px;flex:1;background:#ddd5c7}.dot.on{background:var(--rust)}.story{display:grid;grid-template-columns:96px 1fr;gap:18px;align-items:start;max-width:900px}.speaker{display:none}.speaker img{width:88px;height:120px;object-fit:cover;object-position:top;border-radius:3px;background:#e6ded0}.speaker-name{font-size:12px;color:var(--rust);text-align:center;margin-top:6px}.dialogue{font-size:16px;line-height:2;white-space:pre-line;min-height:88px}.choices{display:grid;gap:10px;margin:17px 0 0 114px;max-width:790px}.choice{background:var(--card);border:1px solid var(--line);padding:14px 16px;text-align:left;cursor:pointer;transition:.18s;line-height:1.65}.choice:hover,.choice:focus-visible{border-color:var(--rust);transform:translateX(3px);outline:none}.choice span{display:block;color:var(--muted);font:12px/1.6 system-ui,sans-serif;margin-top:3px}.ending{margin:20px 0 0 114px;padding:19px;background:#eae5d9;border-left:3px solid var(--olive);max-width:790px}.ending h3{font-size:19px;font-weight:500;margin:0 0 6px}.ending p{line-height:1.8;margin:0 0 16px}aside{border-left:1px solid var(--line);background:#eee9df;padding:27px 20px;min-height:100vh}.side-title{font:11px system-ui,sans-serif;letter-spacing:.16em;color:var(--muted);margin:5px 0 13px}.cast{display:grid;gap:9px}.person{display:grid;grid-template-columns:62px 1fr;gap:11px;align-items:center;background:rgba(255,255,255,.47);padding:7px;border-radius:3px;cursor:pointer;border:1px solid transparent;text-align:left}.person:hover,.person.active{border-color:#c3a28a}.person img{width:62px;height:74px;object-fit:cover;object-position:top;background:#dfd6c8}.person b{display:block;font-size:13px;font-weight:500}.person small{color:var(--muted);font-size:11px;line-height:1.6;display:block;margin-top:3px}.note{font:11px/1.8 system-ui,sans-serif;color:var(--muted);border-top:1px solid var(--line);padding-top:15px;margin-top:22px}.status{display:grid;gap:8px;margin:0 0 18px}.status-row{display:flex;justify-content:space-between;gap:8px;font:11px/1.5 system-ui,sans-serif;color:var(--muted)}.status-row b{color:var(--ink);font-weight:500}.last-choice{font:11px/1.7 system-ui,sans-serif;color:var(--muted);background:rgba(255,255,255,.42);padding:9px;margin-top:10px}.readiness{height:5px;background:#ddd5c7;margin:4px 0 12px;overflow:hidden}.readiness i{display:block;height:100%;width:0;background:var(--olive);transition:width .25s}.chapter-log{font:11px/1.7 system-ui,sans-serif;color:var(--muted);margin-top:14px}.source{font:11px/1.8 system-ui,sans-serif;color:#817d74;margin-top:16px}.source a{color:inherit}.toast{position:fixed;bottom:20px;left:50%;transform:translate(-50%,20px);opacity:0;background:#333;color:#fff;padding:9px 15px;border-radius:20px;font:12px system-ui,sans-serif;transition:.2s;pointer-events:none}.toast.show{opacity:1;transform:translate(-50%,0)}@media(max-width:850px){.shell{grid-template-columns:1fr}main{padding:20px 17px 32px}aside{border-left:0;border-top:1px solid var(--line);min-height:0}.cast{grid-template-columns:repeat(auto-fit,minmax(130px,1fr))}.person{grid-template-columns:48px 1fr}.person img{width:48px;height:58px}.choices,.ending{margin-left:0}.story{grid-template-columns:1fr}.stage{min-height:270px}}
+:root{--paper:#f7f3eb;--ink:#30312d;--muted:#74756d;--rust:#a65338;--olive:#68745d;--line:#e1dacd;--card:#fffdf8}
+body{background:radial-gradient(ellipse at 12% 0%,rgba(255,255,255,.78),transparent 36%),var(--paper)}
+.shell{width:min(100%,1560px);background:var(--paper);box-shadow:0 20px 70px rgba(55,45,34,.08)}
+main{padding:clamp(24px,4vw,58px) clamp(18px,4.5vw,68px) 56px}
+.top{min-height:48px;gap:14px;flex-wrap:wrap}
+.actions{gap:8px;flex-wrap:wrap}
+.small-btn{min-height:42px;padding:9px 15px;border-radius:999px;transition:background-color .18s,border-color .18s,transform .18s}
+.small-btn:hover{border-color:#c8bda9;background:#eee7da}
+.small-btn:focus-visible,.choice:focus-visible,.person:focus-visible{outline:3px solid rgba(166,83,56,.38);outline-offset:2px}
+.brand{font-size:12px}
+.eyebrow{font-size:11px}
+.subhead{max-width:680px}
+.stage{aspect-ratio:1.85/1;border-radius:12px;box-shadow:0 12px 32px rgba(48,42,34,.12)}
+.stage:after{inset:38% 0 0;background:linear-gradient(transparent,rgba(24,26,24,.76))}
+.scene-label{left:clamp(16px,2.5vw,26px);bottom:clamp(15px,2.5vw,24px)}
+.scene-label h2{font-size:clamp(21px,2.4vw,27px)}
+.progress{gap:6px}
+.dot{height:4px;border-radius:999px;overflow:hidden}
+.story{gap:15px}
+.speaker img{border-radius:9px;box-shadow:0 5px 14px rgba(47,41,34,.14)}
+.dialogue{padding:15px 18px;border:1px solid rgba(217,210,196,.72);border-radius:12px;background:rgba(255,253,248,.76);line-height:1.9}
+.choices{gap:9px}
+.choice{min-height:62px;padding:14px 17px;border-radius:11px;box-shadow:0 3px 10px rgba(48,42,34,.035);transition:border-color .18s,background-color .18s,transform .18s,box-shadow .18s}
+.choice:hover,.choice:focus-visible{background:#fffefa;box-shadow:0 7px 18px rgba(48,42,34,.08);transform:translateY(-1px)}
+.choice span{margin-top:4px}
+.ending{border-radius:0 12px 12px 0;box-shadow:0 6px 20px rgba(48,42,34,.05)}
+aside{background:linear-gradient(180deg,#f0ebe1,#ece6da);padding:30px 20px}
+.person{min-height:82px;border-radius:9px;transition:border-color .18s,background-color .18s,transform .18s}
+.person:hover,.person.active{background:rgba(255,255,255,.8);transform:translateY(-1px)}
+.person img{border-radius:7px}
+.status-row{min-height:28px;align-items:center}
+.readiness{height:6px;border-radius:999px}
+.readiness i{border-radius:999px}
+.last-choice{border-radius:8px}
+.toast{bottom:calc(18px + env(safe-area-inset-bottom));max-width:calc(100vw - 32px);text-align:center}
+@media(hover:none){.small-btn:hover,.choice:hover,.person:hover{transform:none;box-shadow:none}.small-btn:hover{background:transparent}.choice:hover{background:var(--card)}}
+@media(max-width:700px){
+.shell{display:block;width:100%;min-height:100svh;box-shadow:none}
+main{padding:max(14px,env(safe-area-inset-top)) 16px calc(28px + env(safe-area-inset-bottom))}
+.top{align-items:center;gap:10px;padding-bottom:13px}
+.brand{font-size:11px;letter-spacing:.12em}
+.actions{gap:6px}
+.small-btn{min-height:44px;padding:9px 12px;font-size:12px}
+.eyebrow{margin:18px 0 7px;font-size:10px}
+h1{font-size:clamp(27px,7.4vw,35px);line-height:1.2}
+.subhead{font-size:13px;line-height:1.75;margin:0 0 17px}
+.stage{aspect-ratio:16/10;min-height:0;max-height:360px;border-radius:10px}
+.scene-label{left:15px;bottom:13px}
+.scene-label small{font-size:10px}
+.scene-label h2{font-size:clamp(18px,5.2vw,22px)}
+.progress{gap:4px;margin:13px 0 14px}
+.dot{height:4px}
+.story{display:block;max-width:none;margin-top:4px}
+.speaker{display:flex!important;align-items:center;gap:10px;margin:0 0 9px}
+.speaker img{width:42px;height:54px;border-radius:8px}
+.speaker-name{margin:0;text-align:left;font:13px/1.4 system-ui,sans-serif}
+.dialogue{min-height:0;padding:13px 14px;border-radius:11px;font-size:15px;line-height:1.85}
+.choices{gap:8px;margin:12px 0 0}
+.choice{min-height:62px;padding:12px 14px;border-radius:10px;font-size:14px;line-height:1.55}
+.choice span{font-size:11px;line-height:1.55;margin-top:4px}
+.ending{margin:13px 0 0;padding:15px;border-radius:0 11px 11px 0}
+.ending h3{font-size:18px}
+aside{min-height:0;padding:20px 16px calc(26px + env(safe-area-inset-bottom))}
+.side-title{margin:3px 0 10px}
+.cast{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+.person{min-width:0;min-height:68px;grid-template-columns:42px minmax(0,1fr);gap:8px;padding:7px;border-radius:8px}
+.person img{width:42px;height:52px;border-radius:6px}
+.person b{font-size:12px}
+.person small{font-size:10px;line-height:1.45;overflow-wrap:anywhere}
+.status{gap:4px;margin-bottom:14px}
+.status-row{min-height:30px;font-size:10px}
+.last-choice{padding:9px;border-radius:7px}
+.note{padding-top:12px;margin-top:18px}
+.readiness{margin:5px 0 10px}
+.chapter-log,.source{font-size:10px}
+}
+@media(max-width:380px){
+main{padding-left:13px;padding-right:13px}
+.top{align-items:flex-start}
+.brand{padding-top:12px;font-size:10px}
+.actions{width:100%;margin-left:0}
+.small-btn{flex:1;padding-left:8px;padding-right:8px}
+.cast{grid-template-columns:1fr}
+}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
 </style></head><body><div class="shell"><main>
 <header class="top"><div class="brand">青春 · 分支叙事</div><div class="actions"><button class="small-btn" id="saveBtn">保存进度</button><button class="small-btn" id="restartBtn">重新开始</button></div></header>
 <p class="eyebrow">原著前期剧情 · 从大学报到到第一份生意</p><h1>《我真没想重生啊》</h1><p class="subhead">三十五岁的陈汉升在一场酒后车祸后，回到了 2002 年高考结束后的港城。录取通知书、被拒绝的告白、建邺财院 602 宿舍——这一次，你来决定他怎样走进熟悉的大学生活。</p>
